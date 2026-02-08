@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kim Anh | Portfolio</title>
+  <style>
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;max-width:900px;margin:40px auto;padding:0 16px;line-height:1.6}
+    header{display:flex;gap:20px;align-items:center;flex-wrap:wrap}
+    img{width:120px;height:120px;border-radius:16px;object-fit:cover;border:1px solid #eee}
+    .card{border:1px solid #eee;border-radius:16px;padding:16px;margin:16px 0}
+    h1{margin:0}
+    .muted{color:#666}
+    a{color:inherit}
+    ul{padding-left:18px}
+  </style>
+</head>
+<body>
+  <header>
+    <img src="profile.jpg" alt="Ảnh đại diện">
+    <div>
+      <h1>Kim Anh</h1>
+      <div class="muted">Sinh viên ngành Kinh tế • Định hướng: Phân tích dữ liệu / Tài chính</div>
+      <div>📧 <a href="mailto:kanhhhk1709@gmail.com">kanhhhk1709@gmail.com</a> • 🔗 <a href="#">LinkedIn</a></div>
+    </div>
+  </header>
+
+  <section class="card">
+    <h2>Giới thiệu</h2>
+    <p>
+      Tôi là sinh viên chuyên ngành Kinh tế, quan tâm đến phân tích dữ liệu và ra quyết định dựa trên dữ liệu.
+      Tôi đang tìm cơ hội thực tập để phát triển kỹ năng Excel/Power BI/SPSS/Python và tư duy phân tích.
+    </p>
+  </section>
+
+  <section class="card">
+    <h2>Kỹ năng</h2>
+    <ul>
+      <li>Excel/Google Sheets: Pivot, Dashboard cơ bản</li>
+      <li>SPSS/Stata/R: thống kê mô tả, hồi quy (cơ bản)</li>
+      <li>Power BI (cơ bản), SQL (cơ bản), Python (Pandas - cơ bản)</li>
+      <li>Thuyết trình, viết báo cáo, làm việc nhóm</li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2>Dự án học tập</h2>
+    <ul>
+      <li><b>Phân tích lạm phát Việt Nam (2015–2023)</b> — làm sạch dữ liệu, biểu đồ xu hướng, nhận xét. (Excel/Python) — <a href="#">Repo</a></li>
+      <li><b>Nghiên cứu hành vi tiêu dùng sinh viên</b> — khảo sát, phân tích kết quả, slide báo cáo. (Forms/Excel) — <a href="#">Repo</a></li>
+      <li><b>Phân tích chi tiêu hộ gia đình</b> — mô tả + hồi quy tuyến tính. (SPSS/Stata) — <a href="#">Repo</a></li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2>Học vấn</h2>
+    <ul>
+      <li><b>[Tên Trường]</b> — Kinh tế, [Năm mấy] (20xx–20xx)</li>
+      <li>Môn nổi bật: Kinh tế lượng, Thống kê, Tài chính doanh nghiệp…</li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2>Hoạt động / Thành tích</h2>
+    <ul>
+      <li>[Ví dụ] Thành viên CLB học thuật / tham gia workshop…</li>
+      <li>[Ví dụ] Giải thưởng / học bổng (nếu có)</li>
+    </ul>
+  </section>
+
+  <footer class="muted" style="margin-top:24px">
+    © <span id="y"></span> Kim Anh
+  </footer>
+  <script>document.getElementById("y").textContent=new Date().getFullYear()</script>
+</body>
+</html>
